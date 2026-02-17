@@ -2,6 +2,9 @@
 
 Aplicación de consola desarrollada en Java que permite convertir monedas en tiempo real utilizando la API ExchangeRate.
 
+El usuario puede seleccionar distintas opciones de conversión y obtener el resultado actualizado según la tasa oficial del día.
+
+
 ## Funcionalidades
 
 - Conversión entre:
@@ -27,6 +30,8 @@ Aplicación de consola desarrollada en Java que permite convertir monedas en tie
 La API Key no se encuentra hardcodeada en el proyecto.  
 Se utiliza una variable de entorno: EXCHANGE_API_KEY
 
+Esto evita exponer credenciales sensibles en el repositorio.
+
 
 ##  Estructura del proyecto
 
@@ -42,12 +47,21 @@ Se utiliza una variable de entorno: EXCHANGE_API_KEY
 ✔ Integración con API  
 ✔ Conversión validada  
 
+##  Cómo ejecutar el proyecto
+
+1. Clonar el repositorio.
+2. Configurar la variable de entorno EXCHANGE_API_KEY con tu clave personal.
+3. Ejecutar el proyecto desde la clase Main.
+
+Ejemplo en Windows (PowerShell):
+
+setx EXCHANGE_API_KEY "tu_api_key_aqui"
+
+
 -------
 
 Desarrollado por Bjmoonlight 
 
----
 
-Desarrollado por Bjmoonlight 💜
 
 
