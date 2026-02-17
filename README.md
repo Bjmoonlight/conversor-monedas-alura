@@ -42,8 +42,7 @@ Se utiliza una variable de entorno: EXCHANGE_API_KEY
 ✔ Integración con API  
 ✔ Conversión validada  
 
-
----
+-------
 
 Desarrollado por Bjmoonlight 
 
